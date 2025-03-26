@@ -20,7 +20,8 @@ if Mario touches anything more than 5% of the block heigth of the obstacle (from
 
 Minecraft style , 3D blocks , ability to go left and right ; auto-running ; jump with different length and height via 'space' button ; generated obstacles in front ; need to choose different strategies to make sure you are doing good ; future possibility of multiplayer with NPC that are running alongside you and they can block your path (you can't walk through them and they have a strategy that is made specifically for the player competition , because the one who of you 1-1 is lost first , they will be a loser ) -> there should be a good system of NPC reactions then that are based on NPC learning USER's moves
 */
-import * as THREE from 'three';
+import { Scene, PerspectiveCamera, WebGLRenderer, BoxGeometry, MeshStandardMaterial, Mesh, Clock, Color, Fog, Vector3, AmbientLight, DirectionalLight, PlaneGeometry, TextureLoader, Box3, MathUtils } from 'three'; // Added Clock, Color, Fog, Vector3, AmbientLight, DirectionalLight, PlaneGeometry, TextureLoader, Box3, MathUtils
+import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';// Initialize Three.js
 
 let scene, camera, renderer;
 let player, floor, house;
