@@ -1,23 +1,6 @@
 // Framework: three.js
 // User Prompt: A very counter-intuitive version of Mario game , with a small pixelated figure of Mario and large blocks it should jump upon ; it runs automatically ; and it can only jump ON boxes - IF it drops on the floor - game over ; 
 
-game starts like that :
-
-mario exits their house 
-runs forward and sees minecraft type blocks in 3D (view from the first-perspective)
-
-then auto-running turns on (from the first-person perspective too) 
-
-and we have to do parkour via deciding how long we should click space 
-
-obstacles have different heights ; and we run forward to them with different speed because Mario has limited energy based on the height of the particular obstacle . 
-
-Mario can jump ONTO obstacles [!]
-
-if Mario touches anything more than 5% of the block heigth of the obstacle (from the top) -> game over , otherwise it can jump on every obstacle forward or do any other strategy 
-
-Minecraft style , 3D blocks , ability to go left and right ; auto-running ; jump with different length and height via 'space' button ; generated obstacles in front ; need to choose different strategies to make sure you are doing good ; future possibility of multiplayer with NPC that are running alongside you and they can block your path (you can't walk through them and they have a strategy that is made specifically for the player competition , because the one who of you 1-1 is lost first , they will be a loser ) -> there should be a good system of NPC reactions then that are based on NPC learning USER's moves
-
 import * as THREE from 'three';
 import { MathUtils } from 'three';
 
