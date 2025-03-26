@@ -1,7 +1,7 @@
 // Framework: three.js
 // User Prompt: A very counter-intuitive version of Mario game , with a small pixelated figure of Mario and large blocks it should jump upon ; it runs automatically ; and it can only jump ON boxes - IF it drops on the floor - game over ; 
 
-import * as THREE from 'three';
+import { Scene, PerspectiveCamera, WebGLRenderer, BoxGeometry, MeshStandardMaterial, Mesh } from 'three';
 import { MathUtils } from 'three';
 
 let scene, camera, renderer;
